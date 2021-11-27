@@ -36,8 +36,16 @@
                     "type": "string"
                 },
                 "url": {
-                    "title": "url",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "title": "",
+                            "type": "string"
+                        },
+                        {
+                            "title": "",
+                            "type": "string"
+                        }
+                    ]
                 }
             },
             "required": [
@@ -71,8 +79,9 @@
             "properties": {
                 "offset": {
                     "items": {
+                        "format": "float",
                         "title": "offset",
-                        "type": "integer"
+                        "type": "number"
                     },
                     "title": "offset",
                     "type": "array"
@@ -207,8 +216,16 @@
                     "type": "string"
                 },
                 "source": {
-                    "title": "source",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "title": "",
+                            "type": "string"
+                        },
+                        {
+                            "title": "",
+                            "type": "string"
+                        }
+                    ]
                 },
                 "tensorflow_version": {
                     "title": "tensorflow_version",
@@ -281,8 +298,16 @@
                 },
                 "covers": {
                     "items": {
-                        "title": "covers",
-                        "type": "string"
+                        "anyOf": [
+                            {
+                                "title": "",
+                                "type": "string"
+                            },
+                            {
+                                "title": "",
+                                "type": "string"
+                            }
+                        ]
                     },
                     "title": "covers",
                     "type": "array"
@@ -400,16 +425,32 @@
                 },
                 "sample_inputs": {
                     "items": {
-                        "title": "sample_inputs",
-                        "type": "string"
+                        "anyOf": [
+                            {
+                                "title": "",
+                                "type": "string"
+                            },
+                            {
+                                "title": "",
+                                "type": "string"
+                            }
+                        ]
                     },
                     "title": "sample_inputs",
                     "type": "array"
                 },
                 "sample_outputs": {
                     "items": {
-                        "title": "sample_outputs",
-                        "type": "string"
+                        "anyOf": [
+                            {
+                                "title": "",
+                                "type": "string"
+                            },
+                            {
+                                "title": "",
+                                "type": "string"
+                            }
+                        ]
                     },
                     "title": "sample_outputs",
                     "type": "array"
@@ -434,16 +475,32 @@
                 },
                 "test_inputs": {
                     "items": {
-                        "title": "test_inputs",
-                        "type": "string"
+                        "anyOf": [
+                            {
+                                "title": "",
+                                "type": "string"
+                            },
+                            {
+                                "title": "",
+                                "type": "string"
+                            }
+                        ]
                     },
                     "title": "test_inputs",
                     "type": "array"
                 },
                 "test_outputs": {
                     "items": {
-                        "title": "test_outputs",
-                        "type": "string"
+                        "anyOf": [
+                            {
+                                "title": "",
+                                "type": "string"
+                            },
+                            {
+                                "title": "",
+                                "type": "string"
+                            }
+                        ]
                     },
                     "title": "test_outputs",
                     "type": "array"
@@ -519,8 +576,16 @@
                     "type": "string"
                 },
                 "uri": {
-                    "title": "uri",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "title": "",
+                            "type": "string"
+                        },
+                        {
+                            "title": "",
+                            "type": "string"
+                        }
+                    ]
                 }
             },
             "type": "object"
@@ -571,8 +636,16 @@
                     "type": "string"
                 },
                 "source": {
-                    "title": "source",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "title": "",
+                            "type": "string"
+                        },
+                        {
+                            "title": "",
+                            "type": "string"
+                        }
+                    ]
                 },
                 "weights_format": {
                     "enum": [
@@ -786,8 +859,16 @@
                     "type": "string"
                 },
                 "source": {
-                    "title": "source",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "title": "",
+                            "type": "string"
+                        },
+                        {
+                            "title": "",
+                            "type": "string"
+                        }
+                    ]
                 },
                 "weights_format": {
                     "enum": [
@@ -845,8 +926,16 @@
                     "type": "string"
                 },
                 "source": {
-                    "title": "source",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "title": "",
+                            "type": "string"
+                        },
+                        {
+                            "title": "",
+                            "type": "string"
+                        }
+                    ]
                 },
                 "weights_format": {
                     "enum": [
@@ -922,8 +1011,16 @@
                     "type": "string"
                 },
                 "source": {
-                    "title": "source",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "title": "",
+                            "type": "string"
+                        },
+                        {
+                            "title": "",
+                            "type": "string"
+                        }
+                    ]
                 },
                 "tensorflow_version": {
                     "title": "tensorflow_version",
@@ -985,8 +1082,16 @@
                     "type": "string"
                 },
                 "source": {
-                    "title": "source",
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "title": "",
+                            "type": "string"
+                        },
+                        {
+                            "title": "",
+                            "type": "string"
+                        }
+                    ]
                 },
                 "tensorflow_version": {
                     "title": "tensorflow_version",
